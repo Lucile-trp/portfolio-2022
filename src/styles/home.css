@@ -1,0 +1,55 @@
+main {
+    margin: 0 300px;
+    font-family: 'Lato', sans-serif;
+    color: black
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: white;
+}
+
+.home-container{
+    height: 70vh;
+    width: 100%;
+    margin: auto auto;
+    position: relative;
+}
+.left-element {
+    position: absolute;
+    width: 80%;
+    z-index: 3;
+    bottom: 0;
+    margin-bottom: 50px;
+
+
+}
+.right-element {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    width:80%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+h1 {
+    font-size: 60px;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-items {
+    margin: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
